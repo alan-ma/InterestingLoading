@@ -11,6 +11,7 @@ h1 {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	transition: width 800ms ease, opacity 600ms ease;
 }
 .vertical {
 	margin: 0 -25%;
@@ -35,7 +36,7 @@ h1 {
 	-webkit-clip-path: inset(70% 0 0 0);
 }
 .panel {
-	width: 17%;
+	width: 15%;
 	height: 0;
 	float: left;
 	display: flex;
@@ -67,7 +68,7 @@ h1 {
 	margin-bottom: -21px;
 }
 .panel.filler {
-	width: 16%;
+	width: 20%;
 }
 .panel h1 {
 	font-size: 5rem;
@@ -91,4 +92,9 @@ h1 {
 .vertical.middle .down {
 	background: #E8EAF6;
 	color: #E8EAF6;
+}
+#resume {
+	height: 100%;
+	width: 100%;
+	display: none;
 }
